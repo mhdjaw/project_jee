@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acheter des crédits</title>
+</head>
+<body>
+    <h2>Acheter des crédits</h2>
+    <form action="AddCreditServlet" method="post">
+        <label for="member_id">ID du membre :</label>
+        <input type="number" id="member_id" name="member_id" required><br><br>
+        
+        <label for="credits_bought">Nombre de crédits :</label>
+        <input type="number" id="credits_bought" name="credits_bought" required><br><br>
+        
+        <label for="price">Prix total :</label>
+        <input type="number" id="price" name="price" step="0.01" required><br><br>
+        
+        <button type="submit">Acheter</button>
+    </form>
+</body>
+</html>
